@@ -1,8 +1,15 @@
 aid: coinsuper
 name: Coinsuper
-description: 'Coinsuper is a company surfaced as a portfolio company of pantera-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: crypto. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Coinsuper presents itself as a cryptocurrency exchange offering USD-compliant
+  crypto trading, spot markets, an exchange and trade interface, a token listing application
+  process, a referral program, and blockchain products (LENS and Blockchain+). The
+  public site markets white-label trading-system solutions, enterprise cold and hot
+  wallet asset management, and industrial blockchain technical services, citing patents
+  in crypto trading and blockchain core technology. Coinsuper was originally a Hong
+  Kong exchange surfaced as a portfolio company of pantera-capital and added to the
+  API Evangelist network for enrichment; the current site is a WordPress-hosted brand
+  presence with no publicly documented developer API, SDKs, or developer portal at
+  the time of this pass.'
 url: https://raw.githubusercontent.com/api-evangelist/coinsuper/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +17,29 @@ x-backed-by:
 - pantera-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.coinsuper.com/wp-content/uploads/2025/05/favicon.png
 tags:
 - Company
 - Crypto
+- Cryptocurrency
+- Exchange
+- Trading
+- Blockchain
+- Bitcoin
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/coinsuper-domain-security.yml
 - type: Website
   url: https://www.coinsuper.com/
+- type: BlogRSS
+  url: https://www.coinsuper.com/feed/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
