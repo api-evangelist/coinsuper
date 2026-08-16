@@ -2,13 +2,14 @@
   "repo": "coinsuper",
   "feeds": [
     {
+      "source": "https://www.coinsuper.com/feed/",
+      "error": "URLError"
+    },
+    {
       "source": "https://www.coinsuper.com/",
-      "feed_url": "https://www.coinsuper.com/feed/",
-      "title": "",
-      "saved": 0,
-      "method": "discovered"
+      "error": "URLError"
     }
   ],
   "post_count": 0,
-  "fetched": "2026-08-06T14:08:46Z"
+  "fetched": "2026-08-15T12:22:01Z"
 }
